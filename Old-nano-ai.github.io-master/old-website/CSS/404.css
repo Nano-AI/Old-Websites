@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+
+html {
+    font-family: 'Audiowide', cursive;
+}
+
+body {
+    overflow: hidden;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px; /* margin is -0.5 * dimension */
+    margin-top: -170px; 
+    font-size: 175px;
+}
+
+h2 {
+    color: white;
+    position: absolute;
+    width: 420px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    margin-left: -210px; /* margin is -0.5 * dimension */
+    margin-top: 50px; 
+    font-size: 40px;
+}
+
+h3 {
+    color: white;
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    top: 50%;
+    left: 50%;
+    margin-left: -60px; /* margin is -0.5 * dimension */
+    margin-top: 100px; 
+}
+
+a {
+    color: white;
+}
+
+/*basic reset*/
+* {margin: 0; padding: 0;}
+/*adding a black bg to the body to make things clearer*/
+body {background: black;}
+canvas {display: block;}
+
+body > span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#credit, #credit a {
+    color: rgb(32, 32, 32);
+}

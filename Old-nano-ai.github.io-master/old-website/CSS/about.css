@@ -1,0 +1,53 @@
+#information {
+    background-color: white;
+    padding: 10px 16px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circle {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+.blue {
+    background-color: blue;
+    border: 0 solid blue;
+}
+
+.brown {
+    background-color: #b07219;
+    border: 0 solid #b07219;
+}
+
+.yellow {
+    background-color: yellow;
+    border: 0 solid yellow;
+}
+
+.orangered {
+    background-color: orangered;
+    border: 0 solid orangered;
+}
+
+#information h1 {
+    color: black;
+    font-size: 2em;
+    font-weight: bolder;
+    padding: 0 0;
+}
+
+#information hr {
+    background-color: dimgray;
+    margin-left: 0;
+}
+
