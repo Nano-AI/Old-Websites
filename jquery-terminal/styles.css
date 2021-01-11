@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    background: black;
+}
+#term {
+    height: 100vh;
+}
+:root {
+    --background: #181518;
+}
+@media (min-width: 800px) {
+    :root {
+        --size: 2;
+    }
+}
+@media (min-width: 1200px) {
+    :root {
+        --size: 2;
+    }
+}
+/* glow
+.terminal {
+    text-shadow: 0 0.2rem 1rem #0c7b46;
+} */

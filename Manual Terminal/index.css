@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+html {
+	background-color: #181518 !important;
+}
+.dir-blue {
+	color: #729fcf !important;
+}
+.username-green {
+  color: #8ae234 !important;
+}
+#terminal {
+  color: white;
+  font-size: 20px;
+  word-wrap: break-word;
+}
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+.blink {
+  animation: blinker 1s linear infinite;
+  width: 50%;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.error {
+  color: #aa0310 !important;
+}
+#input-line {
+  display: inline-block;
+}

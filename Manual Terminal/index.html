@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="terminal">
+      <!-- All of the commands -->
+      <!-- Current says it's the current terminal -->
+      <div class="input-line">
+        <div class="line" id="current">
+          <span id="user">
+            <span class="username-green">
+              <b>Nano-AI@Website</b>
+            </span>:
+            <span class="dir-blue">~</span>
+            $
+          </span>
+          <span>
+            <span id="command"></span>
+            <span id="floating-box" class="blink">|</span>
+          </span>
+        </div>
+
+        <div id="output"></div>
+      </div>
+    </div>
+  </body>
+
+  <!-- <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script> -->
+  <script src="app.js"></script>
+</html>
